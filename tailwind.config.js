@@ -16,10 +16,10 @@ module.exports = {
         }),
       },
       boxShadow: {
-        '3xl': platformSelect({
-          android: '0px 2px 10px 0px rgba(38, 38, 38, 0.9)',
-          default: '0px 2px 10px 0px rgba(38, 38, 38, 0.1)',
-        }),
+        // '3xl': platformSelect({
+        //   android: '0px 2px 10px 0px rgba(38, 38, 38, 0.9)',
+        //   default: '0px 2px 10px 0px rgba(38, 38, 38, 0.1)',
+        // }),
         '4xl': '0px 2px 10px 0px rgba(38, 38, 38, 0.1)',
       },
     },
